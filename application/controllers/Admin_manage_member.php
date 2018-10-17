@@ -12,6 +12,7 @@ class Admin_manage_member extends CI_Controller
                     redirect('home/index');
                 }       
                 $this->load->model('Manage_member_model','member_model');
+                //GG
         }
         
         public function index()
